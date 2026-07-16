@@ -67,3 +67,13 @@ Answer generation sends only recent bounded transcript context and latest detect
 ## Phase 2
 
 Rolling summaries, action items, decisions, meeting history, transcript export, prompt templates, keyboard shortcuts, floating mini panel, advanced question detection, and provider-supported diarization.
+
+## OpenRouter STT setup
+
+1. Open Settings.
+2. Enter OpenRouter API key.
+3. Click `Check API key & tải model STT`.
+4. Choose an audio-capable model from the loaded list.
+5. Save settings.
+
+OpenRouter transcription runs in sequential audio chunks. It is near-real-time, not token-level streaming STT.
