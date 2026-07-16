@@ -1,0 +1,1 @@
+import{z}from'zod';export const deltaSchema=z.object({choices:z.array(z.object({delta:z.object({content:z.string().optional()})})).min(1)});export function readDelta(value:unknown){return deltaSchema.parse(value).choices[0].delta.content??'';}
